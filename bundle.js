@@ -33220,9 +33220,11 @@
 
 	      return _react2.default.createElement(
 	        'div',
-	        { className: 'search-bar' },
+	        { className: 'search-bar d-flex' },
 	        _react2.default.createElement('input', {
+	          className: 'sbinputbox',
 	          value: this.state.term,
+	          placeholder: 'search here',
 	          onChange: function onChange(event) {
 	            return _this2.onInputChange(event.target.value);
 	          }
