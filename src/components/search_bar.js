@@ -12,7 +12,7 @@ class SearchBar extends Component {
     return (
       <div className="search-bar d-flex">
         <input
-          className="sbinputbox"
+          className="sbinputbox d-flex"
           value = {this.state.term}
           placeholder = 'search here'
           onChange={ (event) => this.onInputChange(event.target.value) }

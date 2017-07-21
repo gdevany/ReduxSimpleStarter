@@ -1,14 +1,21 @@
+body {
+  font-family: monospace;
+}
+
 .container {
   background-color: lightgrey;
+  padding-left: 9vw;
+  padding-right: 9vw;
 }
 
 .sbinputbox {
   margin: 20px;
   justify-content: center;
-  border: 1px solid blue;
+  border: 2px solid #7c7cd2;
   font-size: 0.9em;
   font-family: monospace;
   width: 90%;
+  border-radius: 10px;
 }
 
 .search-bar {
