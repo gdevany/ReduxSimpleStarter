@@ -108,7 +108,7 @@
 	      selectedVideo: null
 	    };
 
-	    _this.videoSearch('surfboards');
+	    _this.videoSearch('Ella and Stephanie moves like Jagger');
 	    return _this;
 	  }
 
@@ -117,7 +117,11 @@
 	    value: function videoSearch(term) {
 	      var _this2 = this;
 
-	      (0, _youtubeApiSearch2.default)({ key: API_KEY, term: term }, function (videos) {
+	      (0, _youtubeApiSearch2.default)({
+	        key: API_KEY,
+	        term: term,
+	        part: 'snippet'
+	      }, function (videos) {
 	        _this2.setState({
 	          videos: videos,
 	          selectedVideo: videos[0]
@@ -32242,10 +32246,11 @@
 	  }
 
 	  var params = {
-	    part: 'snippet',
+	    part: options.part,
 	    key: options.key,
 	    q: options.term,
-	    type: 'video'
+	    type: 'video',
+	    maxResults: 10
 	  };
 
 	  axios.get(ROOT_URL, { params: params })
@@ -33350,7 +33355,7 @@
 	    return _react2.default.createElement(
 	      "div",
 	      null,
-	      "Loading..."
+	      "LoadingooooooOOOOOO"
 	    );
 	  }
 
