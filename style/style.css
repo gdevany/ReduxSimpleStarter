@@ -1,0 +1,22 @@
+.container {
+  background-color: lightgrey;
+}
+
+.sbinputbox {
+  margin: 20px;
+  justify-content: center;
+  border: 1px solid blue;
+  font-size: 0.9em;
+  font-family: monospace;
+  width: 90%;
+}
+
+.search-bar {
+  justify-content: center;
+}
+
+.video-detail {
+  border: 2px solid black;
+  padding: 10px;
+  background-color: grey;
+}
