@@ -108,7 +108,7 @@
 	      selectedVideo: null
 	    };
 
-	    _this.videoSearch('Ella and Stephanie moves like Jagger');
+	    _this.videoSearch('The Commodores Easy');
 	    return _this;
 	  }
 

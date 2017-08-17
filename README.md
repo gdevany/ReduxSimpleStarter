@@ -1,5 +1,26 @@
 # ReduxSimpleStarter
 
+--------------------------------------
+*** npm run webpack ***
+every time you save.  Because gihub doesn't know build.
+
+
+* in package.json:
+  "scripts" : {
+    "start": .....
+    .
+    .
+    "webpack" : "webpack"      --->  ADDED ONCE
+  }
+
+* in .gitignore:
+    bundle.js          ---> DELETE ONCE
+
+---------------------------------------
+
+
+
+
 Interested in learning [Redux](https://www.udemy.com/react-redux/)?
 
 ### Getting Started
