@@ -108,7 +108,7 @@
 	      selectedVideo: null
 	    };
 
-	    _this.videoSearch('The Commodores Easy');
+	    _this.videoSearch('Easy - The Commodores Live At Grammy Awards (VHSRip)');
 	    return _this;
 	  }
 
