@@ -18,7 +18,7 @@ class App extends Component {
       selectedVideo: null
     };
 
-    this.videoSearch('Ella and Stephanie moves like Jagger');
+    this.videoSearch('The Commodores Easy');
   }
 
   videoSearch(term) {
