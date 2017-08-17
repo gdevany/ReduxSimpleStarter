@@ -18,7 +18,7 @@ class App extends Component {
       selectedVideo: null
     };
 
-    this.videoSearch('Easy - The Commodores Live At Grammy Awards (VHSRip)');
+    this.videoSearch('MARIO STRATIEVISK The Commodores Easy');
   }
 
   videoSearch(term) {

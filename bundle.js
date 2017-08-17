@@ -108,7 +108,7 @@
 	      selectedVideo: null
 	    };
 
-	    _this.videoSearch('Easy - The Commodores Live At Grammy Awards (VHSRip)');
+	    _this.videoSearch('MARIO STRATIEVISK The Commodores Easy');
 	    return _this;
 	  }
 
